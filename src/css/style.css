@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Raleway&display=swap');
+*{
+  box-sizing:border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #FFF;
+  color: #333;
+  line-height: 1.6;
+}
+ul{
+  list-style: none;
+}
+a{
+  color: #333;
+  text-decoration: none;
+}
+p {
+  margin: 10px 0;
+}
+h1, h2{
+  font-weight: 300;
+  line-height: 1.2;
+}
+img {
+  width: 100%;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  background-color: #333;
+  color: #FFF;
+  opacity: 0.8;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+}
+.navbar a {
+  color: #FFF;
+  padding: 10px 20px;
+  margin: 0 5px;
+}
+.navbar a:hover {
+  border-bottom: 2px solid #28a745;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar .logo {
+  font-weight: 400;
+}
+
+/* Header Styles */
+.hero {
+  background: url(../images/home/showcase.jpg) no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  color: #FFF;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.hero * {
+  z-index: 10;
+}
+.hero .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  padding: 0 20px;
+}
+.hero .content h1 {
+  font-size: 55px;
+}
+.hero .content p {
+  font-size: 23px;
+  max-width: 600px;
+  margin: 20px 0 30px;
+}
