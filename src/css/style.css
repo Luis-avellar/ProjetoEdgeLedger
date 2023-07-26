@@ -93,3 +93,18 @@ img {
   max-width: 600px;
   margin: 20px 0 30px;
 }
+/* Icons Styles */
+.icons {
+  padding: 30px;
+}
+.icons h3 {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.icons i {
+  background-color: #28a745;
+  color: #FFF;
+  padding: 1rem;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
