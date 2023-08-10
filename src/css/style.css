@@ -41,6 +41,7 @@ img {
   width: 100%;
   position: fixed;
   top: 0px;
+  transition: 0.5s;
 }
 .navbar a {
   color: #FFF;
@@ -56,7 +57,9 @@ img {
 .navbar .logo {
   font-weight: 400;
 }
-
+.navbar.top {
+  background: transparent;
+}
 /* Header Styles */
 .hero {
   background: url(../images/home/showcase.jpg) no-repeat center center/cover;
